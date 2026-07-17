@@ -1,8 +1,8 @@
 const express = require("express");
 const cors = require("cors");
-const { initializeDatabase } = require("../db/db.connection");
-const { Student } = require("../models/students.model");
-const { Teacher } = require("../models/teachers.model");
+const { initializeDatabase } = require("./db/db.connection");
+const { Student } = require("./models/students.model");
+const { Teacher } = require("./models/teachers.model");
 
 const app = express();
 app.use(express.json());
